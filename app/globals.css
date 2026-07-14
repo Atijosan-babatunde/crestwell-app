@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Open+Sans:wght@400;500;600;700&family=Cookie&display=swap');
+
+:root {
+  --font-cormorant: 'Cormorant Garamond';
+  --font-opensans:  'Open Sans';
+  --font-cookie:    'Cookie';
+  --primary:   #1e3a6e;
+  --secondary: #2ab5a5;
+}
+
+@layer base {
+  *, *::before, *::after { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body  { @apply font-sans text-text bg-white antialiased; line-height: 1.7; }
+  a     { @apply no-underline; }
+  ul,ol { list-style:none; margin:0; padding:0; }
+  img   { display:block; max-width:100%; }
+}
+
+@layer components {
+  .container-site { @apply max-w-container mx-auto px-6 lg:px-10 w-full; }
+  .section-pad    { @apply py-20 md:py-24; }
+
+  /* eyebrow */
+  .eyebrow { @apply block font-script text-secondary leading-none; font-size:clamp(20px,2vw,26px); }
+
+  /* ── Buttons ── */
+  .btn-primary {
+    @apply inline-flex items-center gap-2 font-sans font-bold text-[14px] px-7 py-[14px]
+           bg-primary text-white border-2 border-primary uppercase tracking-wide
+           transition-all duration-200 hover:-translate-y-px hover:bg-secondary hover:border-secondary;
+  }
+  .btn-secondary {
+    @apply inline-flex items-center gap-2 font-sans font-bold text-[14px] px-7 py-[14px]
+           bg-secondary text-white border-2 border-secondary uppercase tracking-wide
+           transition-all duration-200 hover:-translate-y-px hover:bg-primary hover:border-primary;
+  }
+  .btn-outline {
+    @apply inline-flex items-center gap-2 font-sans font-bold text-[14px] px-7 py-[14px]
+           bg-transparent text-primary border-2 border-primary uppercase tracking-wide
+           transition-all duration-200 hover:bg-primary hover:text-white;
+  }
+  .btn-outline-light {
+    @apply inline-flex items-center gap-2 font-sans font-bold text-[14px] px-7 py-[14px]
+           bg-transparent text-white border-2 border-white/60 uppercase tracking-wide
+           transition-all duration-200 hover:bg-secondary hover:border-secondary;
+  }
+  .btn-lg { @apply text-[15px] px-9 py-[17px]; }
+
+  /* dividers */
+  .divider       { @apply w-12 h-[3px] bg-secondary; }
+  .divider-center{ @apply w-12 h-[3px] bg-secondary mx-auto; }
+
+  /* form */
+  .form-input {
+    @apply w-full px-4 py-3.5 bg-surface border-2 border-primary/15 text-[15px] text-dark
+           font-sans outline-none transition-colors duration-200 focus:border-secondary placeholder:text-muted/70;
+  }
+
+  /* reveal */
+  .reveal { opacity:0; transform:translateY(24px); transition:opacity .5s ease,transform .5s ease; }
+  .reveal.visible { opacity:1; transform:none; }
+}
