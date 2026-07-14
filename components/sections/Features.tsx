@@ -8,7 +8,7 @@ export default function Features() {
           <span className="eyebrow">What we offer</span>
           <h2 className="font-serif font-bold text-title text-dark mt-1">Comfort, Delivered to Your Door.</h2>
           <div className="divider-center mt-4"/>
-          <p className="mt-4 text-[16px] text-text/80">We've built our services around real comfort for every client we support. We care about each person we visit and work to make daily life easier at home.</p>
+          <p className="mt-4 text-[16px] text-text/80">We&rsquo;ve built our services around real comfort for every client we support. We care about each person we visit and work to make daily life easier at home.</p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-7">
           {FEATURES.map((f,i)=>(

@@ -38,7 +38,7 @@ function ContactForm() {
       <div className="p-10 relative z-10">
         <span className="font-script text-secondary block mb-1" style={{fontSize:'clamp(18px,2vw,22px)'}}>Contact Us</span>
         <h3 className="font-serif text-[26px] font-bold text-white mb-1.5">Want to Learn More?</h3>
-        <p className="text-[14px] text-white/50 mb-7">Fill the form below and we'll respond within 24 hours.</p>
+        <p className="text-[14px] text-white/50 mb-7">Fill the form below and we&rsquo;ll respond within 24 hours.</p>
         {sent ? (
           <div className="flex items-center gap-4 bg-secondary/20 border border-secondary/35 p-5 text-white" role="alert">
             <div className="w-10 h-10 rounded-full bg-secondary flex items-center justify-center shrink-0">

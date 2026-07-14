@@ -74,7 +74,7 @@ export default function TeamPage() {
         <section className="section-pad bg-surface">
           <div className="container-site">
             <div className="text-center max-w-2xl mx-auto mb-14 reveal">
-              <span className="eyebrow">How we're organised</span>
+              <span className="eyebrow">How we&rsquo;re organised</span>
               <h2 className="font-serif font-bold text-title text-dark mt-1">Our Departments.</h2>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-7">
@@ -110,7 +110,7 @@ export default function TeamPage() {
                   Careers at CrestWell
                 </span>
                 <h2 className="font-serif font-bold text-h2 text-dark mt-1 mb-5">Join Our Team.</h2>
-                <p className="text-base leading-relaxed mb-4">We are always looking for compassionate, skilled individuals who share our commitment to exceptional home care. At CrestWell you'll work in a supportive environment with ongoing training, competitive benefits, and a real sense of purpose every day.</p>
+                <p className="text-base leading-relaxed mb-4">We are always looking for compassionate, skilled individuals who share our commitment to exceptional home care. At CrestWell you&rsquo;ll work in a supportive environment with ongoing training, competitive benefits, and a real sense of purpose every day.</p>
                 <p className="text-base leading-relaxed mb-7">Current openings include positions in support work, domiciliary care, night care, and care coordination.</p>
                 <a href="/contact" className="btn-primary inline-flex">
                   View Open Positions →

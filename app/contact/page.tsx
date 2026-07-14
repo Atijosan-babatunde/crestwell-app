@@ -88,7 +88,7 @@ export default function ContactPage() {
                     </svg>
                     <div>
                       <strong className="block text-lg font-serif text-primary">Thank you, {form.name}!</strong>
-                      <p className="text-secondary mt-1">We've received your message and will be in touch within one business day.</p>
+                      <p className="text-secondary mt-1">We&rsquo;ve received your message and will be in touch within one business day.</p>
                     </div>
                   </div>
                 ) : (
@@ -115,7 +115,7 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <label htmlFor="interest" className="block text-sm font-semibold text-dark mb-1.5">
-                        I'm interested in…
+                        I&rsquo;m interested in…
                       </label>
                       <select id="interest" name="interest" value={form.interest} onChange={handleChange} className="form-input appearance-none cursor-pointer">
                         <option value="general">General enquiry</option>
@@ -203,7 +203,7 @@ export default function ContactPage() {
             <span className="eyebrow block mb-1">Careers</span>
             <h2 className="font-serif font-bold text-h2 text-dark mb-4">Join Our Team.</h2>
             <p className="text-base leading-relaxed text-text/80 mb-8">
-              We're always looking for compassionate support workers and carers across support work, domiciliary care, night care, and living care. Send us your CV and we'll be in touch about current openings.
+              We&rsquo;re always looking for compassionate support workers and carers across support work, domiciliary care, night care, and living care. Send us your CV and we&rsquo;ll be in touch about current openings.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <a href="mailto:Recruitment@Crestwellhealthcare.co.uk?subject=Job%20Application" className="btn-secondary btn-lg">

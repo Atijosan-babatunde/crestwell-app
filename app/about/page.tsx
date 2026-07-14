@@ -37,8 +37,8 @@ export default function AboutPage() {
         <section className="py-16 md:py-20">
           <div className="container-site max-w-[1040px]">
             <div className="flex flex-col gap-5 text-[16.5px] text-text/80 leading-relaxed reveal">
-              <p>Many of us worry about growing older or caring for a loved one — not just because everyday tasks get harder, but because of the loneliness that can come with losing independence, especially when family live far away or can't always be there.</p>
-              <p>Moving isn't always the answer. Most people simply want to stay in the home they know, surrounded by their own things, on their own street. That's exactly what Crestwell Healthcare is built for. We're a home care and support work provider serving Seattle and the surrounding suburbs, bringing trained, compassionate carers straight to your door.</p>
+              <p>Many of us worry about growing older or caring for a loved one — not just because everyday tasks get harder, but because of the loneliness that can come with losing independence, especially when family live far away or can&rsquo;t always be there.</p>
+              <p>Moving isn&rsquo;t always the answer. Most people simply want to stay in the home they know, surrounded by their own things, on their own street. That&rsquo;s exactly what Crestwell Healthcare is built for. We&rsquo;re a home care and support work provider serving Seattle and the surrounding suburbs, bringing trained, compassionate carers straight to your door.</p>
             </div>
           </div>
         </section>
@@ -66,7 +66,7 @@ export default function AboutPage() {
               <div className="flex flex-col gap-5 text-[15.5px] text-text/80 leading-relaxed">
                 <p>Every care plan starts with an assessment of your home and your routine, so support fits around the life you already have — not the other way around. If mobility is a concern, our carers are trained to help safely with transfers, positioning, and getting around the house.</p>
                 <p>Our support workers can help with meal preparation too, so clients eat well throughout the week, with menus that take dietary needs and personal tastes into account.</p>
-                <p>But the real advantage of home care is simple: you stay where you're comfortable. Choosing Crestwell Healthcare brings peace of mind to clients and their families alike, wherever home happens to be.</p>
+                <p>But the real advantage of home care is simple: you stay where you&rsquo;re comfortable. Choosing Crestwell Healthcare brings peace of mind to clients and their families alike, wherever home happens to be.</p>
               </div>
             </div>
           </div>
@@ -76,8 +76,8 @@ export default function AboutPage() {
         <section className="pb-12 md:pb-16">
           <div className="container-site max-w-[1040px]">
             <div className="flex flex-col gap-5 text-[16.5px] text-text/80 leading-relaxed reveal">
-              <p>Many clients tell us that without company, one day can start to feel much like the last — shopping, watching TV, cooking, sleeping. That's why our support work goes beyond the practical: our carers make time for conversation, hobbies, and getting out of the house.</p>
-              <p>Whether it's a game of chess, a trip to the library, help getting to a social club, or simply company over a favorite film, our support workers build real relationships with the people they care for — alongside the medication prompts, personal care, and daily routines they're there to help with.</p>
+              <p>Many clients tell us that without company, one day can start to feel much like the last — shopping, watching TV, cooking, sleeping. That&rsquo;s why our support work goes beyond the practical: our carers make time for conversation, hobbies, and getting out of the house.</p>
+              <p>Whether it&rsquo;s a game of chess, a trip to the library, help getting to a social club, or simply company over a favorite film, our support workers build real relationships with the people they care for — alongside the medication prompts, personal care, and daily routines they&rsquo;re there to help with.</p>
             </div>
           </div>
         </section>

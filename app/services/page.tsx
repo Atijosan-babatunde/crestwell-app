@@ -67,7 +67,7 @@ export default function ServicesPage() {
         <section className="pb-20 md:pb-24 bg-surface">
           <div className="container-site max-w-[1040px] py-16">
             <p className="text-[17px] text-text leading-relaxed reveal">
-              Families are kept in the loop between visits, with regular updates on how care is going. Clients who need closer support can add medication monitoring or night care on top of their regular visits, and can request extra help at any time. We know every client by name and work hard to make each visit feel personal — that's what makes Crestwell a great partner for meeting each day with dignity, at home.
+              Families are kept in the loop between visits, with regular updates on how care is going. Clients who need closer support can add medication monitoring or night care on top of their regular visits, and can request extra help at any time. We know every client by name and work hard to make each visit feel personal — that&rsquo;s what makes Crestwell a great partner for meeting each day with dignity, at home.
             </p>
           </div>
         </section>

@@ -18,7 +18,7 @@ export default function Testimonials() {
         </div>
         <div className="max-w-[700px] mx-auto text-center reveal" aria-live="polite">
           {/* Large quote mark */}
-          <div className="text-secondary/30 font-serif text-[120px] leading-none -mb-8 select-none">"</div>
+          <div className="text-secondary/30 font-serif text-[120px] leading-none -mb-8 select-none">&ldquo;</div>
           <blockquote className="font-sans italic text-white leading-[1.75] mb-8" style={{fontSize:'clamp(16px,2vw,20px)'}}>
             {t.quote.replace(/^"|"$/g,'')}
           </blockquote>
