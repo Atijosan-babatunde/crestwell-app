@@ -15,8 +15,8 @@ const contactInfo = [
       </svg>
     ),
     label: "Address",
-    value: "121 NW 145th St, Seattle, WA 98177",
-    href: "https://maps.google.com/?q=121+NW+145th+St+Seattle+WA+98177",
+    value: "10 Intake Terrace, BD2 3ND",
+    href: "https://maps.google.com/?q=10+Intake+Terrace+BD2+3ND",
   },
   {
     icon: (
@@ -25,8 +25,8 @@ const contactInfo = [
       </svg>
     ),
     label: "Phone",
-    value: "+1 (234) 567 89 00",
-    href: "tel:+12345678900",
+    value: "+441274442136",
+    href: "tel:+441274442136",
   },
   {
     icon: (
@@ -36,8 +36,8 @@ const contactInfo = [
       </svg>
     ),
     label: "Email",
-    value: "info@crestwellhealthcare.com",
-    href: "mailto:info@crestwellhealthcare.com",
+    value: "admin@crestwellhealthcare.co.uk",
+    href: "mailto:admin@crestwellhealthcare.co.uk",
   },
   {
     icon: (
@@ -47,7 +47,7 @@ const contactInfo = [
       </svg>
     ),
     label: "Office hours",
-    value: "Mon–Fri: 8am–6pm · Sat–Sun: 9am–5pm",
+    value: "Mon–Fri: 9am–9pm",
     href: undefined,
   },
 ];
@@ -70,7 +70,7 @@ export default function ContactPage() {
       <RevealInit />
       <Header />
       <main>
-        <PageHero eyebrow="Get in Touch" title="We'd Love to Hear From You." subtitle="Whether you have a question, want to schedule a visit, or are ready to take the next step — we're here." bgImage="https://res2.weblium.site/res/5ffebd7bf672830021d842f0/600edb8e7435c10022509922" />
+        <PageHero eyebrow="Get in Touch" title="We'd Love to Hear From You." subtitle="Whether you have a question, want to schedule a visit, or are ready to take the next step we're here." bgImage="https://res2.weblium.site/res/5ffebd7bf672830021d842f0/600edb8e7435c10022509922" />
 
         {/* Contact grid */}
         <section className="section-pad">
@@ -169,7 +169,7 @@ export default function ContactPage() {
                 <div className="reveal bg-dark p-8">
                   <h3 className="font-serif text-xl font-bold text-white mb-5">Quick Actions</h3>
                   <div className="flex flex-col gap-3">
-                    <a href="tel:+12345678900" className="flex items-center gap-3 py-3 px-4 bg-white/10 text-white hover:bg-secondary transition-colors duration-200 text-sm font-semibold">
+                    <a href="tel:+441274442136" className="flex items-center gap-3 py-3 px-4 bg-white/10 text-white hover:bg-secondary transition-colors duration-200 text-sm font-semibold">
                       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-5 h-5 shrink-0">
                         <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.6 3.23 2 2 0 0 1 3.6 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.6a16 16 0 0 0 6 6l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z" />
                       </svg>
@@ -202,9 +202,7 @@ export default function ContactPage() {
           <div className="container-site max-w-[720px] text-center reveal">
             <span className="eyebrow block mb-1">Careers</span>
             <h2 className="font-serif font-bold text-h2 text-dark mb-4">Join Our Team.</h2>
-            <p className="text-base leading-relaxed text-text/80 mb-8">
-              We&rsquo;re always looking for compassionate support workers and carers across support work, domiciliary care, night care, and living care. Send us your CV and we&rsquo;ll be in touch about current openings.
-            </p>
+            <p className="text-base leading-relaxed text-text/80 mb-8">We&rsquo;re always looking for compassionate support workers and carers across support work, domiciliary care, night care, and living care. Send us your CV and we&rsquo;ll be in touch about current openings.</p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <a href="mailto:Recruitment@Crestwellhealthcare.co.uk?subject=Job%20Application" className="btn-secondary btn-lg">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4 shrink-0">
@@ -220,7 +218,7 @@ export default function ContactPage() {
             <p className="mt-6 text-sm text-text/60">
               Or reach recruitment directly at{" "}
               <a href="mailto:Recruitment@Crestwellhealthcare.co.uk" className="text-primary font-semibold hover:text-secondary transition-colors">
-                Recruitment@Crestwellhealthcare.co.uk
+                recruitment@Crestwellhealthcare.co.uk
               </a>
             </p>
           </div>
@@ -228,13 +226,7 @@ export default function ContactPage() {
 
         {/* Map */}
         <section>
-          <iframe
-            title="CrestWell location"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2682.5!2d-122.359966!3d47.7338859!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490138fa8a92e91%3A0xef89e5b62e79d0f5!2s121%20NW%20145th%20St%2C%20Seattle%2C%20WA%2098177!5e0!3m2!1sen!2sus!4v1"
-            className="w-full h-[420px] border-0 block"
-            loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-          />
+          <iframe title="CrestWell location" src="https://www.google.com/maps?q=10+Intake+Terrace,+BD2+3ND,+UK&output=embed" className="w-full h-[420px] border-0 block" loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
         </section>
       </main>
       <Footer />

@@ -20,18 +20,18 @@ export default function Header() {
       <div className="bg-primary-dark hidden md:block">
         <div className="container-site flex justify-between items-center py-2 text-[12.5px]">
           <div className="flex items-center gap-5">
-            {/* <a href="tel:+12345678900" className="flex items-center gap-1.5 text-white/60 hover:text-secondary transition-colors font-medium">
+            <a href="tel:+441274442136" className="flex items-center gap-1.5 text-white/60 hover:text-secondary transition-colors font-medium">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-3.5 h-3.5">
                 <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.6 3.23 2 2 0 0 1 3.6 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.6a16 16 0 0 0 6 6l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z" />
               </svg>
-              +1 (234) 567 89 00
-            </a> */}
-            <a href="mailto:info@crestwellhealthcare.com" className="flex items-center gap-1.5 text-white/60 hover:text-secondary transition-colors font-medium">
+              +441274442136
+            </a>
+            <a href="mailto:admin@crestwellhealthcare.co.uk" className="flex items-center gap-1.5 text-white/60 hover:text-secondary transition-colors font-medium">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-3.5 h-3.5">
                 <rect width="20" height="16" x="2" y="4" rx="2" />
                 <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
               </svg>
-              Admin@crestwellhealthcare.co.uk
+              admin@crestwellhealthcare.co.uk
             </a>
           </div>
           <p className="text-white/35 tracking-widest text-[11px] uppercase font-semibold hidden lg:block">Compassionate Care &nbsp;·&nbsp; Reliable People &nbsp;·&nbsp; Better Outcomes</p>
