@@ -17,7 +17,7 @@ export default function Footer() {
             <Link href="/contact" className="btn-outline-light text-[13px] px-6 py-3">
               Schedule a Free Visit →
             </Link>
-            <a href="tel:+12345678900" className="inline-flex items-center gap-2 bg-white text-primary font-bold text-[13px] uppercase tracking-wide px-6 py-3 hover:bg-surface transition-colors">
+            <a href="tel:+441274442136" className="inline-flex items-center gap-2 bg-white text-primary font-bold text-[13px] uppercase tracking-wide px-6 py-3 hover:bg-surface transition-colors">
               <svg viewBox="0 0 20 20" fill="currentColor" className="w-4 h-4 shrink-0">
                 <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
               </svg>
@@ -38,7 +38,7 @@ export default function Footer() {
               <div className="flex gap-2">
                 {[
                   {
-                    h: "https://facebook.com/",
+                    h: "https://www.facebook.com/share/197crmYJKK/?mibextid=wwXIfr",
                     a: "Facebook",
                     i: (
                       <svg viewBox="0 0 24 24" fill="currentColor" className="w-3.5 h-3.5">
@@ -47,7 +47,7 @@ export default function Footer() {
                     ),
                   },
                   {
-                    h: "https://instagram.com/",
+                    h: "https://www.instagram.com/crestwellhealthcare?igsh=c3lldGxzN2RjaXAw&utm_source=qr",
                     a: "Instagram",
                     i: (
                       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-3.5 h-3.5">
@@ -57,16 +57,16 @@ export default function Footer() {
                       </svg>
                     ),
                   },
-                  {
-                    h: "https://linkedin.com/",
-                    a: "LinkedIn",
-                    i: (
-                      <svg viewBox="0 0 24 24" fill="currentColor" className="w-3.5 h-3.5">
-                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z" />
-                        <circle cx="4" cy="4" r="2" />
-                      </svg>
-                    ),
-                  },
+                  // {
+                  //   h: "https://linkedin.com/",
+                  //   a: "LinkedIn",
+                  //   i: (
+                  //     <svg viewBox="0 0 24 24" fill="currentColor" className="w-3.5 h-3.5">
+                  //       <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z" />
+                  //       <circle cx="4" cy="4" r="2" />
+                  //     </svg>
+                  //   ),
+                  // },
                 ].map((s) => (
                   <a key={s.a} href={s.h} target="_blank" rel="noopener noreferrer" aria-label={s.a} className="w-9 h-9 rounded-full border border-white/15 flex items-center justify-center text-white/40 hover:bg-secondary hover:border-secondary hover:text-white transition-all duration-200">
                     {s.i}
